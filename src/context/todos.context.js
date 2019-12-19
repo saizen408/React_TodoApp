@@ -1,5 +1,3 @@
-//todos
-//all methods to interact w/ todos
 import React, { createContext } from 'react';
 import useTodoState from '../hooks/useTodoState';
 const defaultTodos = [
