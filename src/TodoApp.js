@@ -9,12 +9,6 @@ import Grid from '@material-ui/core/Grid';
 import { TodosProvider } from './context/todos.context';
 
 function TodoApp() {
-  const initialTodos = [{ id: 1, task: 'Pet a Monkey', completed: false }];
-
-  // useEffect(() => {
-  //   window.localStorage.setItem('todos', JSON.stringify(todos));
-  // }, [todos]);
-
   return (
     <Paper
       style={{
